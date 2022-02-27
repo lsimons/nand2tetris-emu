@@ -1,3 +1,21 @@
+
+------------------
+
+Forked from https://github.com/itoshkov/nand2tetris-emu
+
+itoshkov:
+    Most of the software tools are open source. You can find the source here https://www.nand2tetris.org/software (it's at the bottom of the page). The only exceptions are things like the Jack compiler, which is something that the students are supposed to develop during the course.
+    The source code is rather old and doesn't even include an automated build file. 
+    Some time ago, itoshkov created a fork here: https://github.com/itoshkov/nand2tetris-emu. 
+    It uses maven for building, fixes several problems (e.g. the original code uses enum as a variable name, and it's now a reserved keyword) and bugs, plus some new features. 
+    You may find it easier to start from there.
+
+
+-----------------
+
+
+
+
 The contents of this file are subject to the GNU General Public License
 (GPL) Version 2 or later (the "License"); you may not use this file except
 in compliance with the License. You may obtain a copy of the License at
